@@ -60,7 +60,7 @@ const Chatbot = () => {
 
   const handleChatbotResponse = async (userInput) => {
     try {
-      const response = await axios.post(`${BASE_URL}/api/users/query_pdf/`, {
+      const response = await axios.post(`${BASE_URL}/api/users/query/`, {
         "query":userInput
       });
       const content = response.data.content;

@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Training />} />
+          <Route path="/" element={<Chatbot />} />
           <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </Router>
